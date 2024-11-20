@@ -76,7 +76,6 @@ function App() {
                                             <Label htmlFor="name">Bruttó Ár</Label>
                                             <Input
                                                 id="name"
-                                                placeholder="200000"
                                                 type="number"
                                                 step={0.01}
                                                 {...register("number", { required: true })}
