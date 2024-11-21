@@ -37,7 +37,7 @@ function App() {
 
     return (
         <>
-            <div className="min-h-screen w-full flex items-center justify-center">
+            <div className="min-h-screen w-full flex flex-col items-center justify-center">
                 <div className="flex flex-col gap-5">
                     <h1 className="text-4xl font-black text-center">Áfa Kalkulátor</h1>
                     <Tabs defaultValue={type} className="w-96" onValueChange={setType}>
